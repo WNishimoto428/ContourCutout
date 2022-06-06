@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ContourCutout
+//  portraitEffectsMatte_Sample
 //
 //  Created by WataruNishimoto on 2019/05/23.
 //
