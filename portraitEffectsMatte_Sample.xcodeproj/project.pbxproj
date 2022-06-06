@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4AF2AB7222968E5F00F1676F /* ContourCutout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContourCutout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF2AB7222968E5F00F1676F /* portraitEffectsMatte_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = portraitEffectsMatte_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF2AB7522968E5F00F1676F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF2AB7722968E5F00F1676F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AF2AB7A22968E5F00F1676F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		4AF2AB6922968E5F00F1676F = {
 			isa = PBXGroup;
 			children = (
-				4AF2AB7422968E5F00F1676F /* ContourCutout */,
+				4AF2AB7422968E5F00F1676F /* portraitEffectsMatte_Sample */,
 				4AF2AB7322968E5F00F1676F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +48,31 @@
 		4AF2AB7322968E5F00F1676F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AF2AB7222968E5F00F1676F /* ContourCutout.app */,
+				4AF2AB7222968E5F00F1676F /* portraitEffectsMatte_Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AF2AB7422968E5F00F1676F /* ContourCutout */ = {
+		4AF2AB7422968E5F00F1676F /* portraitEffectsMatte_Sample */ = {
 			isa = PBXGroup;
 			children = (
 				4AF2AB7522968E5F00F1676F /* AppDelegate.swift */,
+				4AF2AB872296948700F1676F /* PhotoViewer.swift */,
 				4AF2AB7722968E5F00F1676F /* ViewController.swift */,
 				4AF2AB7922968E5F00F1676F /* Main.storyboard */,
 				4AF2AB7C22968E6200F1676F /* Assets.xcassets */,
 				4AF2AB7E22968E6200F1676F /* LaunchScreen.storyboard */,
 				4AF2AB8122968E6200F1676F /* Info.plist */,
-				4AF2AB872296948700F1676F /* PhotoViewer.swift */,
 			);
-			path = ContourCutout;
+			path = portraitEffectsMatte_Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AF2AB7122968E5F00F1676F /* ContourCutout */ = {
+		4AF2AB7122968E5F00F1676F /* portraitEffectsMatte_Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AF2AB8422968E6200F1676F /* Build configuration list for PBXNativeTarget "ContourCutout" */;
+			buildConfigurationList = 4AF2AB8422968E6200F1676F /* Build configuration list for PBXNativeTarget "portraitEffectsMatte_Sample" */;
 			buildPhases = (
 				4AF2AB6E22968E5F00F1676F /* Sources */,
 				4AF2AB6F22968E5F00F1676F /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ContourCutout;
+			name = portraitEffectsMatte_Sample;
 			productName = ContourCutout;
-			productReference = 4AF2AB7222968E5F00F1676F /* ContourCutout.app */;
+			productReference = 4AF2AB7222968E5F00F1676F /* portraitEffectsMatte_Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4AF2AB6D22968E5F00F1676F /* Build configuration list for PBXProject "ContourCutout" */;
+			buildConfigurationList = 4AF2AB6D22968E5F00F1676F /* Build configuration list for PBXProject "portraitEffectsMatte_Sample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AF2AB7122968E5F00F1676F /* ContourCutout */,
+				4AF2AB7122968E5F00F1676F /* portraitEffectsMatte_Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +290,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QHS254WW3X;
-				INFOPLIST_FILE = ContourCutout/Info.plist;
+				INFOPLIST_FILE = portraitEffectsMatte_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +310,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QHS254WW3X;
-				INFOPLIST_FILE = ContourCutout/Info.plist;
+				INFOPLIST_FILE = portraitEffectsMatte_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AF2AB6D22968E5F00F1676F /* Build configuration list for PBXProject "ContourCutout" */ = {
+		4AF2AB6D22968E5F00F1676F /* Build configuration list for PBXProject "portraitEffectsMatte_Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AF2AB8222968E6200F1676F /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AF2AB8422968E6200F1676F /* Build configuration list for PBXNativeTarget "ContourCutout" */ = {
+		4AF2AB8422968E6200F1676F /* Build configuration list for PBXNativeTarget "portraitEffectsMatte_Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AF2AB8522968E6200F1676F /* Debug */,
